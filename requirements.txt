@@ -1,0 +1,3 @@
+beautifulsoup4
+requests
+yagmail  # If you're still planning to use it
