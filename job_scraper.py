@@ -4,7 +4,7 @@ import yagmail
 from bs4 import BeautifulSoup
 
 def scrape_indeed(search_terms, location):
-    base_url = "https://www.indeed.com/jobs?"
+    base_url = "https://www.usajobs.gov?" # updated from indeed
     params = {
         "q": search_terms,
         "l": location
